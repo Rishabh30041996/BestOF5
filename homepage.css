@@ -141,7 +141,7 @@ p{
 
 @keyframes move{
   0% { left: 0 }
-  50%{ left: 1200px}
+  50%{ left: 100%}
   100%{ left: 0}
 }
 
@@ -155,12 +155,12 @@ p{
 
 @keyframes move3{
   0% { left: 0 }
-  50%{ left: 1200px}
+  50%{ left: 100%}
   100%{ left: 0}
 }
 .rotating-image{
   align: center;
-  margin-left: 500px;
+  margin-left: 40%;
   animation: rotation 3s infinite linear;
 }
 
@@ -189,7 +189,7 @@ text-align: center;
 
 @keyframes move2 {
   0% { right: 0 }
-  50%{ right: 1200px}
+  50%{ right: 100%}
   100%{ right: 0}
 }
 
@@ -203,7 +203,7 @@ text-align: center;
 
 @keyframes move4 {
   0% { right: 0 }
-  50%{ right: 1200px}
+  50%{ right: 100%}
   100%{ right: 0}
 }
 

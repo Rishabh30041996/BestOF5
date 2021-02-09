@@ -1,0 +1,225 @@
+body{
+background-color:#1a1c20;
+background-image: url(Images/background1.png);
+background-size: contain;
+}
+
+.fix{
+  top:0;   /*For fixing something on the top*/
+}
+/*Heading*/
+h1{
+  text-align: center;
+  font-family: Euphoria Script;
+  font-size: 40px;
+  color: #f9813a;
+}
+
+/*List*/
+li{
+  float: left;
+}
+
+/*Unordered list(ul) class name*/
+.icons{
+  list-style-type: none;
+  background-color: black;
+  border-radius: 5px;
+  margin:0;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+
+/*Performs operation on 'a'tag*/
+.icons a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  min-width: 90px;
+}
+
+/*Performs operation on both list-'a' and div-'a' tags*/
+a:hover, .Type a:hover{
+  background-color:#00b7c2;
+  color: #c4fb6d;
+  font-weight: bold;
+}
+a:active, .Type a:active{
+  background-color: #aee6e6;
+}
+
+/*Performs opertaion on list 'dropdown1' class*/
+li.dropdown1{
+  display: block;
+}
+
+/*Performs operation on all div-'Type' class*/
+.Type{
+  display: none;  /* removes the elements to prevent overlappig*/
+  position: absolute; /* Position will be set according to list-'dropdown1' class*/
+  background-color: lightgrey;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;/* Shows in front of any tag and if we set value as '-1' that it place this class behind other tag element*/
+}
+
+/*Performs operation on div-'a' tag*/
+.Type a{
+  color: black;
+  text-align: center;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+
+/*Shows the other elements of list-'dropdown1' class*/
+.dropdown1:hover .Type{
+  display:block;
+}
+
+.header{
+  text-align: center;
+  padding: 20px 10px 10px;
+  margin-bottom: 10px;
+  font-family: Yatra One;
+}
+.column{
+  float:left;
+  padding:30px;
+}
+.all::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.side{
+  width:15%;
+  margin-top:30px;
+  border: 2px solid lightgrey;
+  padding-top:20px;
+  border-radius: 5px;
+  background-color: #060930;
+}
+.head{
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+  color: white;
+  font-family: Euphoria Script;
+  font-weight: bolder;
+}
+.list{
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #111d5e;
+  text-align: center;
+  border-radius: 20px;
+  color: #c0e218;
+  transition: all 0.3s ease 0s;
+  font-family: Vollkorn;
+  font-size: 17px;
+}
+
+.list:hover{
+    background-color: #c70039;
+    border-radius: 20px;
+    border-radius: 0;
+    transition: all 0.3s ease 0s;
+}
+.list:active{
+    background-color: #f37121;
+    border-radius: 20px;
+    border-radius: 0;
+}
+
+.bod{
+  width: 70%;
+  margin-left:170px;
+  display: inline-block;
+  background-image: url("AnimeIcons/backg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.place{
+  border: 1px solid lightgrey;
+  box-shadow: 5px 5px 8px black, 10px 10px 8px #2e242c, 15px 15px 8px grey;
+  border-radius: 20px;
+  overflow: auto;  /*Adjust the border box according to image or content*/
+  padding-left: 10px;
+  background-color: white;
+  font-family: Vollkorn;
+}
+.data{
+  padding: 2px;
+}
+
+.image{
+  width: 200px;
+  float: left;
+  padding-right: 40px;
+  height: 300px;
+}
+
+.para{
+font-weight: bold;
+padding-bottom: 10px;
+}
+hr{
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  width: 5%;
+  margin:20px auto;
+}
+.genre{
+  background-color: lightgrey;
+  border:none;
+  font-weight: lighter;
+  padding: 1px;
+  border-radius:7px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+
+.light{
+  font-weight: lighter;
+  margin-left: 12px;
+}
+
+.adjust{
+  margin-left: 26%;
+  justify-content: flex-end;
+}
+.bottom-container{
+background-color: #0f1123;
+padding: 50px 0 20px;
+margin-top: 100px;
+text-align: center;
+font-family: 'Merriweather', serif;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.footer-link{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}

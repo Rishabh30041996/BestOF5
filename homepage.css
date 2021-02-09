@@ -133,10 +133,10 @@ p{
 
 .left-image{
   position: absolute;
-  height: 100px;
-  width: 100px;
+  height: 15%;
+  width: 7.5%;
   animation: move 20s infinite linear, rotation 4s infinite linear;
-  padding-top: 140px;
+  padding-top: 15%;
 }
 
 @keyframes move{
@@ -147,10 +147,10 @@ p{
 
 .left-image1{
   position: absolute;
-  height: 100px;
-  width: 100px;
+  height: 15%;
+  width: 7.5%;
   animation: move3 15s infinite linear, rotation 4s infinite linear;
-  padding-bottom: 200px;
+  padding-bottom: 13%;
 }
 
 @keyframes move3{
@@ -162,6 +162,8 @@ p{
   align: center;
   margin-left: 40%;
   animation: rotation 3s infinite linear;
+  height: 35%;
+  width: 25%;
 }
 
 @keyframes rotation {
@@ -181,10 +183,10 @@ text-align: center;
 .right-image{
   position: absolute;
   right: 0;
-  height: 100px;
-  width: 100px;
-  animation: move2 20s infinite linear, rotation 4s infinite linear;
-  padding-top: 140px;
+  height: 15%;
+  width: 7.5%;
+  animation: move2 25s infinite linear, rotation 4s infinite linear;
+  padding-top: 20%;
 }
 
 @keyframes move2 {
@@ -195,10 +197,10 @@ text-align: center;
 
 .right-image1{
   position: absolute;
-  height: 100px;
-  width: 100px;
+  height: 15%;
+  width: 7.5%;
   animation: move4 15s infinite linear, rotation 4s infinite linear;
-  padding-top: 300px;
+  padding-bottom: 15%;
 }
 
 @keyframes move4 {

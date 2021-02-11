@@ -148,6 +148,16 @@ li.dropdown1{
   background-position: center;
 }
 
+@media screen and (max-width:1024px){
+  .bod{
+  width: 100%;
+  margin-left: 0;
+  display: inline-block;
+  background-image: url("AnimeIcons/backg.png");
+  background-size: cover;
+  background-position: center;
+}
+} 
 .place{
   border: 1px solid lightgrey;
   box-shadow: 5px 5px 8px black, 10px 10px 8px #2e242c, 15px 15px 8px grey;

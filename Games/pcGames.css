@@ -153,6 +153,18 @@ li.dropdown1{
   z-index: 1;
 }
 
+@media screen and (max-width:1024px){
+  .bod{
+  width: 100%;
+  margin-left: 0;
+  display: inline-block;
+  background-image: url("PCgamesIcons/backg.png");
+  background-size: cover;
+  background-position: center;
+    z-index:1;
+}
+}
+
 .Tech{
   float:left;
   padding: 50px 10px 30px 90px;
